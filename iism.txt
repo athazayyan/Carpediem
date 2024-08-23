@@ -1,0 +1,611 @@
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Uni-of-Michigan-300x300.png
+Alt text: Uni of Michigan
+Link: https://iisma.kemdikbud.go.id/info/s80-university-of-michigan/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/NYU-300x300.png
+Alt text: NYU
+Link: https://iisma.kemdikbud.go.id/info/s83-new-york-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Georgetown-300x300.png
+Alt text: Georgetown
+Link: https://iisma.kemdikbud.go.id/info/s82-georgetown-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-22-at-11.53.25-300x300.jpeg
+Alt text: WhatsApp Image 2024-01-22 at 11.53.25
+Link: https://iisma.kemdikbud.go.id/info/s100-university-of-toronto/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Boston-Univ-300x300.png
+Alt text: Boston Univ
+Link: https://iisma.kemdikbud.go.id/info/31-boston-university-metropolitan-college/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Arizona-State-University-300x300.png
+Alt text: Arizona State University
+Link: https://iisma.kemdikbud.go.id/info/56-arizona-state-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-University-of-Pennsylvania-300x300.png
+Alt text: The University of Pennsylvania
+Link: https://iisma.kemdikbud.go.id/info/05-the-university-of-pennsylvania-college-of-liberal-and-professional-studies/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/Yale-300x300.png
+Alt text: Yale
+Link: https://iisma.kemdikbud.go.id/info/06-yale-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Penn-State-University-300x300.png
+Alt text: Penn State University
+Link: https://iisma.kemdikbud.go.id/info/29-penn-state-university
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-California-Davis-300x300.png
+Alt text: University of California, Davis
+Link: https://iisma.kemdikbud.go.id/info/30-university-of-california-davis/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/UC-Chile-300x300.png
+Alt text: UC Chile
+Link: https://iisma.kemdikbud.go.id/info/35-uc-chile/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Michigan-State-University-1-300x300.png
+Alt text: Michigan State University
+Link: https://iisma.kemdikbud.go.id/info/45-michigan-state-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/University-of-Colorado-Boulder-300x300.png
+Alt text: University of Colorado Boulder
+Link: https://iisma.kemdikbud.go.id/info/64-university-of-colorado-boulder/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-British-Columbia-300x300.png
+Alt text: University of British Columbia
+Link: https://iisma.kemdikbud.go.id/info/13-university-of-british-columbia/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Waterloo-300x300.png
+Alt text: University of Waterloo
+Link: https://iisma.kemdikbud.go.id/info/42-university-of-waterloo/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Western-University-300x300.png
+Alt text: Western University
+Link: https://iisma.kemdikbud.go.id/info/46-western-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/University-of-Chicago-300x300.png
+Alt text: University of Chicago
+Link: https://iisma.kemdikbud.go.id/info/03-university-of-chicago/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/University-of-Texas-at-Austin-300x300.png
+Alt text: University of Texas at Austin
+Link: https://iisma.kemdikbud.go.id/info/21-university-of-texas-at-austin/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Cornell-300x300.png
+Alt text: Cornell
+Link: https://iisma.kemdikbud.go.id/info/79-cornell-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Uni-of-Michigan-300x300.png
+Alt text: Uni of Michigan
+Link: https://iisma.kemdikbud.go.id/info/s80-university-of-michigan/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/NYU-300x300.png
+Alt text: NYU
+Link: https://iisma.kemdikbud.go.id/info/s83-new-york-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Georgetown-300x300.png
+Alt text: Georgetown
+Link: https://iisma.kemdikbud.go.id/info/s82-georgetown-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-22-at-11.53.25-300x300.jpeg
+Alt text: WhatsApp Image 2024-01-22 at 11.53.25
+Link: https://iisma.kemdikbud.go.id/info/s100-university-of-toronto/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Boston-Univ-300x300.png
+Alt text: Boston Univ
+Link: https://iisma.kemdikbud.go.id/info/31-boston-university-metropolitan-college/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Arizona-State-University-300x300.png
+Alt text: Arizona State University
+Link: https://iisma.kemdikbud.go.id/info/56-arizona-state-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-University-of-Pennsylvania-300x300.png
+Alt text: The University of Pennsylvania
+Link: https://iisma.kemdikbud.go.id/info/05-the-university-of-pennsylvania-college-of-liberal-and-professional-studies/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/Yale-300x300.png
+Alt text: Yale
+Link: https://iisma.kemdikbud.go.id/info/06-yale-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/ntnu-300x300.png
+Alt text: ntnu
+Link: https://iisma.kemdikbud.go.id/info/s88-national-taiwan-normal-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Sun-Yat-Sen-300x300.png
+Alt text: Sun Yat Sen
+Link: https://iisma.kemdikbud.go.id/info/s116-national-sun-yat-sen-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Prince-of-Songkla-University-300x300.png
+Alt text: Prince of Songkla University
+Link: https://iisma.kemdikbud.go.id/info/s90-prince-of-songkla-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/28-300x300.png
+Alt text: 28
+Link: https://iisma.kemdikbud.go.id/info/s118-mahidol-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/OSAKA-FIX-300x300.png
+Alt text: OSAKA FIX
+Link: https://iisma.kemdikbud.go.id/info/18-osaka-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Singapore-Management-University-300x300.png
+Alt text: Singapore Management University
+Link: https://iisma.kemdikbud.go.id/info/74-singapore-management-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Hanyang-University-300x300.png
+Alt text: Hanyang University
+Link: https://iisma.kemdikbud.go.id/info/44-hanyang-university-seoul-campus/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Taiwan-Tech-300x300.png
+Alt text: Taiwan Tech
+Link: https://iisma.kemdikbud.go.id/info/71-national-taiwan-university-of-science-and-technology-taiwan-tech
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/04/KU-300x300.png
+Alt text: KU
+Link: https://iisma.kemdikbud.go.id/info/23-korea-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Universiti-Malaya-1-300x300.png
+Alt text: Universiti Malaya
+Link: https://iisma.kemdikbud.go.id/info/17-universiti-malaya/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Universiti-Kebangsaan-Malaya-300x300.png
+Alt text: Universiti Kebangsaan Malaya
+Link: https://iisma.kemdikbud.go.id/info/38-universiti-kebangsaan-malaysia/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/USM-300x300.png
+Alt text: USM
+Link: https://iisma.kemdikbud.go.id/info/40-universiti-sains-malaysia/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Nanyang-University-300x300.png
+Alt text: Nanyang University
+Link: https://iisma.kemdikbud.go.id/info/04-nanyang-technological-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/VOKASI-EROPA-3-300x300.png
+Alt text: VOKASI EROPA-3
+Link: https://iisma.kemdikbud.go.id/info/52-keio-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/National-Taiwan-University-300x300.png
+Alt text: National Taiwan University
+Link: https://iisma.kemdikbud.go.id/info/18-national-taiwan-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Chulalongkorn-Univ-1-300x300.png
+Alt text: Chulalongkorn Univ
+Link: https://iisma.kemdikbud.go.id/info/55-chulalongkorn-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Middle-East-Technical-University-300x300.png
+Alt text: Middle East Technical University
+Link: https://iisma.kemdikbud.go.id/info/73-middle-east-technical-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Sophia-300x300.png
+Alt text: Sophia
+Link: https://iisma.kemdikbud.go.id/info/s98-sophia-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Taipei-Medical-Uni-300x300.png
+Alt text: Taipei Medical Uni
+Link: https://iisma.kemdikbud.go.id/info/s117-taipei-medical-university-tmu/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/NUS-300x300.png
+Alt text: NUS
+Link: https://iisma.kemdikbud.go.id/info/s112-national-university-of-singapore-nus/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Cheng-Kung-300x300.png
+Alt text: Cheng Kung
+Link: https://iisma.kemdikbud.go.id/info/s115-national-cheng-kung-university-ncku/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/ntnu-300x300.png
+Alt text: ntnu
+Link: https://iisma.kemdikbud.go.id/info/s88-national-taiwan-normal-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Sun-Yat-Sen-300x300.png
+Alt text: Sun Yat Sen
+Link: https://iisma.kemdikbud.go.id/info/s116-national-sun-yat-sen-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Prince-of-Songkla-University-300x300.png
+Alt text: Prince of Songkla University
+Link: https://iisma.kemdikbud.go.id/info/s90-prince-of-songkla-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/28-300x300.png
+Alt text: 28
+Link: https://iisma.kemdikbud.go.id/info/s118-mahidol-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/OSAKA-FIX-300x300.png
+Alt text: OSAKA FIX
+Link: https://iisma.kemdikbud.go.id/info/18-osaka-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Singapore-Management-University-300x300.png
+Alt text: Singapore Management University
+Link: https://iisma.kemdikbud.go.id/info/74-singapore-management-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Hanyang-University-300x300.png
+Alt text: Hanyang University
+Link: https://iisma.kemdikbud.go.id/info/44-hanyang-university-seoul-campus/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Taiwan-Tech-300x300.png
+Alt text: Taiwan Tech
+Link: https://iisma.kemdikbud.go.id/info/71-national-taiwan-university-of-science-and-technology-taiwan-tech
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/UNSW-300x300.png
+Alt text: UNSW
+Link: https://iisma.kemdikbud.go.id/info/12-university-of-new-south-wales/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/University-of-canterbury--300x300.png
+Alt text: University of canterbury
+Link: https://iisma.kemdikbud.go.id/info/66-university-of-canterbury/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Massey-University.webp
+Alt text: Massey-University
+Link: https://iisma.kemdikbud.go.id/info/s111-massey-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Host-Uni-baru-Sarjana-300x300.png
+Alt text: Host Uni baru Sarjana
+Link: https://iisma.kemdikbud.go.id/info/s120-university-of-waikato/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-Australian-National-University-300x300.png
+Alt text: The Australian National University
+Link: https://iisma.kemdikbud.go.id/info/09-the-australian-national-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-University-of-Adelaide-300x300.png
+Alt text: The University of Adelaide
+Link: https://iisma.kemdikbud.go.id/info/32-the-university-of-adelaide/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-University-of-Queensland-300x300.png
+Alt text: The University of Queensland
+Link: https://iisma.kemdikbud.go.id/info/14-the-university-of-queensland/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-University-of-Sydney-300x300.png
+Alt text: The University of Sydney
+Link: https://iisma.kemdikbud.go.id/info/11-university-of-sydney/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Auckland-300x300.png
+Alt text: University of Auckland
+Link: https://iisma.kemdikbud.go.id/info/25-university-of-auckland/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/03/University-of-Melbourne-300x300.png
+Alt text: University of Melbourne
+Link: https://iisma.kemdikbud.go.id/info/10-university-of-melbourne/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Monash-University-300x300.png
+Alt text: Monash University
+Link: https://iisma.kemdikbud.go.id/info/15-monash-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/8-300x300.png
+Alt text: 8
+Link: https://iisma.kemdikbud.go.id/info/27-the-university-of-western-australia/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/University-of-Otago-300x300.png
+Alt text: University of Otago
+Link: https://iisma.kemdikbud.go.id/info/51-university-of-otago/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/University-of-Otago-2-300x300.png
+Alt text: University of Otago-2
+Link: https://iisma.kemdikbud.go.id/info/62-victoria-university-of-wellington/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/UNSW-300x300.png
+Alt text: UNSW
+Link: https://iisma.kemdikbud.go.id/info/12-university-of-new-south-wales/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/University-of-canterbury--300x300.png
+Alt text: University of canterbury
+Link: https://iisma.kemdikbud.go.id/info/66-university-of-canterbury/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Massey-University.webp
+Alt text: Massey-University
+Link: https://iisma.kemdikbud.go.id/info/s111-massey-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Host-Uni-baru-Sarjana-300x300.png
+Alt text: Host Uni baru Sarjana
+Link: https://iisma.kemdikbud.go.id/info/s120-university-of-waikato/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-Australian-National-University-300x300.png
+Alt text: The Australian National University
+Link: https://iisma.kemdikbud.go.id/info/09-the-australian-national-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-University-of-Adelaide-300x300.png
+Alt text: The University of Adelaide
+Link: https://iisma.kemdikbud.go.id/info/32-the-university-of-adelaide/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-University-of-Queensland-300x300.png
+Alt text: The University of Queensland
+Link: https://iisma.kemdikbud.go.id/info/14-the-university-of-queensland/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-University-of-Sydney-300x300.png
+Alt text: The University of Sydney
+Link: https://iisma.kemdikbud.go.id/info/11-university-of-sydney/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/granada-300x300.webp
+Alt text: granada
+Link: https://iisma.kemdikbud.go.id/info/s89-university-of-granada/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/29-300x300.png
+Alt text: 29
+Link: https://iisma.kemdikbud.go.id/info/s113-kth-royal-institute-of-technology/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Lund-300x300.png
+Alt text: Lund
+Link: https://iisma.kemdikbud.go.id/info/s114-lund-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Palacky-University-Olomouc-300x300.png
+Alt text: Palacký University Olomouc
+Link: https://iisma.kemdikbud.go.id/info/76-palacky-university-olomouc/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/03/Vrije-Universiteit-Amsterdam-300x300.png
+Alt text: Vrije Universiteit Amsterdam
+Link: https://iisma.kemdikbud.go.id/info/54-vrije-universiteit-amsterdam/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Leiden-University-300x300.png
+Alt text: Leiden University
+Link: https://iisma.kemdikbud.go.id/info/73-leiden-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Maastricht-University-300x300.png
+Alt text: Maastricht University
+Link: https://iisma.kemdikbud.go.id/info/59-maastricht-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/KU-Leuven-300x300.png
+Alt text: KU Leuven
+Link: https://iisma.kemdikbud.go.id/info/20-ku-leuven/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Szeged-2-300x300.png
+Alt text: University of Szeged
+Link: https://iisma.kemdikbud.go.id/info/75-university-of-szeged
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Pisa-300x300.png
+Alt text: University of Pisa
+Link: https://iisma.kemdikbud.go.id/info/72-university-of-pisa/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Humboldt-University-of-Berlin-300x300.png
+Alt text: Humboldt University of Berlin
+Link: https://iisma.kemdikbud.go.id/info/37-humboldt-universitat-zu-berlin/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-ZagrebUniversity-of-Zagreb-300x300.png
+Alt text: University of ZagrebUniversity of Zagreb
+Link: https://iisma.kemdikbud.go.id/info/77-university-of-zagreb/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Warsaw-1-300x300.png
+Alt text: University of Warsaw
+Link: https://iisma.kemdikbud.go.id/info/68-university-of-warsaw/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/M.V.Lomonosov-Moscow-State-University-300x300.png
+Alt text: M.V.Lomonosov Moscow State University
+Link: https://iisma.kemdikbud.go.id/info/24-m-v-lomonosov-moscow-state-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Radboud-University-1-300x300.png
+Alt text: Radboud University
+Link: https://iisma.kemdikbud.go.id/info/57-radboud-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Vytautas-Magnus-University-300x300.png
+Alt text: Vytautas Magnus University
+Link: https://iisma.kemdikbud.go.id/info/78-vytautas-magnus-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/SciencesPo-300x300.png
+Alt text: SciencesPo
+Link: https://iisma.kemdikbud.go.id/info/lolos-67-sciences-po/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/UNIVERSITAT-POMPEU-FABRA-300x300.png
+Alt text: UNIVERSITAT POMPEU FABRA
+Link: https://iisma.kemdikbud.go.id/info/60-universitat-pompeu-fabra/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Sapienza-University-of-Rome-300x300.png
+Alt text: Sapienza University of Rome
+Link: https://iisma.kemdikbud.go.id/info/47-sapienza-university-of-rome/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Padua-2-300x300.png
+Alt text: University of Padua
+Link: https://iisma.kemdikbud.go.id/info/63-university-of-padua/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/UNIVERSIDAD-AUTONOMA-DE-MADRID-300x300.png
+Alt text: UNIVERSIDAD AUTONOMA DE MADRID
+Link: https://iisma.kemdikbud.go.id/info/53-universidad-autonoma-de-madrid/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/University-of-Groningen-300x300.webp
+Alt text: University-of-Groningen
+Link: https://iisma.kemdikbud.go.id/info/s81-university-of-groningen/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Belarusian-300x300.png
+Alt text: Belarusian
+Link: https://iisma.kemdikbud.go.id/info/s84-belarusian-state-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Aalto-300x300.png
+Alt text: Aalto
+Link: https://iisma.kemdikbud.go.id/info/s85-aalto-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/University-of-pecs.webp
+Alt text: University-of-pecs
+Link: https://iisma.kemdikbud.go.id/info/s86-university-of-pecs/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Siena-300x300.png
+Alt text: Siena
+Link: https://iisma.kemdikbud.go.id/info/s97-university-of-siena/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Technische-Universitat-Dresden-300x300.png
+Alt text: Technische Universität Dresden
+Link: https://iisma.kemdikbud.go.id/info/s99-technische-universitat-dresden/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Aix-Marseille-300x300.png
+Alt text: Aix Marseille
+Link: https://iisma.kemdikbud.go.id/info/s104-aix-marseille-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Caen-Normandie-300x300.png
+Alt text: Caen Normandie
+Link: https://iisma.kemdikbud.go.id/info/s105-universite-de-caen-normandie/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Charles-300x300.png
+Alt text: Charles
+Link: https://iisma.kemdikbud.go.id/info/s106-charles-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/St.-Petersburg-300x300.png
+Alt text: St. Petersburg
+Link: https://iisma.kemdikbud.go.id/info/s107-saint-petersburg-state-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/RUDN-300x300.png
+Alt text: RUDN
+Link: https://iisma.kemdikbud.go.id/info/s108-peoples-friendship-university-of-russia-rudn-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/hse-300x300.png
+Alt text: hse
+Link: https://iisma.kemdikbud.go.id/info/s109-higher-school-of-economics-national-research-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/itmo-300x300.png
+Alt text: itmo
+Link: https://iisma.kemdikbud.go.id/info/s110-information-technologies-mechanics-and-optics-itmo-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/granada-300x300.webp
+Alt text: granada
+Link: https://iisma.kemdikbud.go.id/info/s89-university-of-granada/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/29-300x300.png
+Alt text: 29
+Link: https://iisma.kemdikbud.go.id/info/s113-kth-royal-institute-of-technology/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Lund-300x300.png
+Alt text: Lund
+Link: https://iisma.kemdikbud.go.id/info/s114-lund-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Palacky-University-Olomouc-300x300.png
+Alt text: Palacký University Olomouc
+Link: https://iisma.kemdikbud.go.id/info/76-palacky-university-olomouc/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/03/Vrije-Universiteit-Amsterdam-300x300.png
+Alt text: Vrije Universiteit Amsterdam
+Link: https://iisma.kemdikbud.go.id/info/54-vrije-universiteit-amsterdam/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Leiden-University-300x300.png
+Alt text: Leiden University
+Link: https://iisma.kemdikbud.go.id/info/73-leiden-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Maastricht-University-300x300.png
+Alt text: Maastricht University
+Link: https://iisma.kemdikbud.go.id/info/59-maastricht-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/KU-Leuven-300x300.png
+Alt text: KU Leuven
+Link: https://iisma.kemdikbud.go.id/info/20-ku-leuven/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Limerick-300x300.png
+Alt text: Limerick
+Link: https://iisma.kemdikbud.go.id/info/s96-university-of-limerick/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Southampton-300x300.png
+Alt text: Southampton
+Link: https://iisma.kemdikbud.go.id/info/s91-university-of-southampton/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Queens-University-300x300.png
+Alt text: 's University
+Link: https://iisma.kemdikbud.go.id/info/s94-queens-university-belfast/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Bristol-300x300.png
+Alt text: Bristol
+Link: https://iisma.kemdikbud.go.id/info/s87-university-of-bristol/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Lancaster-University-300x300.png
+Alt text: Lancaster University
+Link: https://iisma.kemdikbud.go.id/info/39-lancaster-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Leicester-300x300.png
+Alt text: University of Leicester
+Link: https://iisma.kemdikbud.go.id/info/61-university-of-leicester/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/University-of-Galway-300x300.png
+Alt text: University of Galway
+Link: https://iisma.kemdikbud.go.id/info/65-university-of-galway/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-University-of-Birmingham-300x300.png
+Alt text: The University of Birmingham
+Link: https://iisma.kemdikbud.go.id/info/28-university-of-birmingham/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/Newcastle-300x300.png
+Alt text: Newcastle
+Link: https://iisma.kemdikbud.go.id/info/36-newcastle-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-University-of-Edinburgh-300x300.png
+Alt text: The University of Edinburgh
+Link: https://iisma.kemdikbud.go.id/info/07-university-of-edinburgh/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-College-Dublin-300x300.png
+Alt text: University College Dublin
+Link: https://iisma.kemdikbud.go.id/info/48-university-college-dublin/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-College-Cork-National-University-of-Ireland-300x300.png
+Alt text: University College Cork - National University of Ireland
+Link: https://iisma.kemdikbud.go.id/info/33-university-college-cork/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Glasgow-300x300.png
+Alt text: University of Glasgow
+Link: https://iisma.kemdikbud.go.id/info/22-university-of-glasgow/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Asset-64-300x300.png
+Alt text: Asset 64
+Link: https://iisma.kemdikbud.go.id/info/50-university-of-liverpool/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Leeds-1-300x300.png
+Alt text: University of Leeds
+Link: https://iisma.kemdikbud.go.id/info/26-university-of-leeds/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Sussex-300x300.png
+Alt text: University of Sussex
+Link: https://iisma.kemdikbud.go.id/info/58-university-of-sussex/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Warwick-300x300.png
+Alt text: University of Warwick
+Link: https://iisma.kemdikbud.go.id/info/s16-university-of-warwick/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-York-300x300.png
+Alt text: University of York
+Link: https://iisma.kemdikbud.go.id/info/43-university-of-york/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/UCL-300x300.png
+Alt text: UCL
+Link: https://iisma.kemdikbud.go.id/info/02-university-college-london/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Queen-Mary-300x300.png
+Alt text: Queen Mary
+Link: https://iisma.kemdikbud.go.id/info/34-queen-mary-university-of-london/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Manchester-300x300.png
+Alt text: Manchester
+Link: https://iisma.kemdikbud.go.id/info/s87-the-university-of-manchester/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Durham-300x300.png
+Alt text: Durham
+Link: https://iisma.kemdikbud.go.id/info/s92-durham-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Sheffield-300x300.png
+Alt text: Sheffield
+Link: https://iisma.kemdikbud.go.id/info/s119-the-university-of-sheffield/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Loughborough-1-300x300.png
+Alt text: Loughborough
+Link: https://iisma.kemdikbud.go.id/info/s95-loughborough-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Bath-300x300.png
+Alt text: Bath
+Link: https://iisma.kemdikbud.go.id/info/s93-university-of-bath/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Limerick-300x300.png
+Alt text: Limerick
+Link: https://iisma.kemdikbud.go.id/info/s96-university-of-limerick/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Southampton-300x300.png
+Alt text: Southampton
+Link: https://iisma.kemdikbud.go.id/info/s91-university-of-southampton/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Queens-University-300x300.png
+Alt text: 's University
+Link: https://iisma.kemdikbud.go.id/info/s94-queens-university-belfast/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2024/01/Bristol-300x300.png
+Alt text: Bristol
+Link: https://iisma.kemdikbud.go.id/info/s87-university-of-bristol/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/Lancaster-University-300x300.png
+Alt text: Lancaster University
+Link: https://iisma.kemdikbud.go.id/info/39-lancaster-university/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/University-of-Leicester-300x300.png
+Alt text: University of Leicester
+Link: https://iisma.kemdikbud.go.id/info/61-university-of-leicester/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2023/02/University-of-Galway-300x300.png
+Alt text: University of Galway
+Link: https://iisma.kemdikbud.go.id/info/65-university-of-galway/
+---
+Image: https://iisma.kemdikbud.go.id/info/wp-content/uploads/2022/02/The-University-of-Birmingham-300x300.png
+Alt text: The University of Birmingham
+Link: https://iisma.kemdikbud.go.id/info/28-university-of-birmingham/
