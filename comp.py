@@ -36,7 +36,8 @@ if test == "chatbot-bantu-persiapan IISMA":
         save_ilmu(JSON_FILE, basis_ilmu)
 
     def main():
-        st.title("Chatbot dengan Basis Pengetahuan")
+        st.title("Penyu dan IISMA-Mu")
+        st.text("Kalau aku tak tahu, bisa train aku ya, & usahakan pakai bahasa Inggris")
 
         if 'pertanyaan' not in st.session_state:
             st.session_state.pertanyaan = ""
