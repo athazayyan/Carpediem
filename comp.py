@@ -7,21 +7,20 @@ from difflib import get_close_matches
 from pathlib import Path
 
 test = st.sidebar.radio("Pilihan Menu", ["Banding Univ", "chatbot-bantu-persiapan IISMA"])
-if test == "chatbot-bantu-persiapan IISMA":
 
+if test == "chatbot-bantu-persiapan IISMA":
     JSON_FILE = Path("ilmu.json")
 
-    def akses_ilmu(file_path: str) -> dict:
-        def akses_ilmu(file_path: str) -> dict:
+    def akses_ilmu(file_path: Path) -> dict:
         try:
-        with open(file_path, 'r') as file:
-            data = json.load(file)
-        return data
+            with file_path.open('r') as file:
+                data = json.load(file)
+            return data
         except FileNotFoundError:
-        return {"input": []}
+            return {"input": []}
 
-    def save_ilmu(file_path: str, data: dict):
-        with open(file_path, 'w') as file:
+    def save_ilmu(file_path: Path, data: dict):
+        with file_path.open('w') as file:
             json.dump(data, file, indent=2)
 
     def cari_jawaban(user_input: str, inputs: list[str]) -> str | None:
@@ -73,10 +72,8 @@ if test == "chatbot-bantu-persiapan IISMA":
             basis_ilmu = akses_ilmu(JSON_FILE)
             st.json(basis_ilmu)
 
-
     if __name__ == "__main__":
         main()
-
 
 if test == "Banding Univ":
     url_list = {
