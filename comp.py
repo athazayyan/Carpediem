@@ -255,15 +255,32 @@ if test == "Banding Univ":
         'University of Newcastle': [-32.9274, 151.7760]
     }
 
+    search_query = st.text_input("Cari Universitas:")
+
     m = folium.Map(location=[40.7295, -73.9965], zoom_start=5)
 
     
     for name, coord in universities.items():
+        color = 'blue' if search_query.lower() not in name.lower() else 'green'
         folium.Marker(
             location=coord,
             popup=name,
-            icon=folium.Icon(color='blue', icon='info-sign')
+            icon=folium.Icon(color=color, icon='info-sign')
         ).add_to(m)
 
-  
+   
+    if search_query:
+        matching_universities = {name: coord for name, coord in universities.items() if search_query.lower() in name.lower()}
+        if matching_universities:
+            for name, coord in matching_universities.items():
+                folium.Marker(
+                    location=coord,
+                    popup=name,
+                    icon=folium.Icon(color='red', icon='info-sign')
+                ).add_to(m)
+            
+            m.location = list(matching_universities.values())[0]
+            m.zoom_start = 12
+
+   
     st_folium(m, width=725)
