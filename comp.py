@@ -65,10 +65,6 @@ if test == "chatbot-bantu-persiapan IISMA":
             else:
                 st.warning("Mohon masukkan pertanyaan terlebih dahulu.")
 
-        if st.button("Tampilkan Basis Pengetahuan"):
-            basis_ilmu = akses_ilmu(JSON_FILE)
-            st.json(basis_ilmu)
-
 
     if __name__ == "__main__":
         main()
