@@ -240,4 +240,10 @@ if test == "Banding Univ":
                         st.text("")  
 
 
+    st.title("Data dari API")
+
+    response = requests.get('https://iisma.kemdikbud.go.id/')
+    data = response.json()
+
+    st.write(data)
 
