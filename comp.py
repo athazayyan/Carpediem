@@ -241,11 +241,11 @@ if test == "Banding Univ":
 
     import time
 
-    st.title("Progress Bar Example")
 
-    # A simple progress bar
+
+    
     progress_bar = st.progress(0)
     for i in range(100):
-        time.sleep(0.1)
+        time.sleep(0.012)
         progress_bar.progress(i + 1)
     st.success("Proses selesai!")
