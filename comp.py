@@ -239,15 +239,20 @@ if test == "Banding Univ":
                         st.text(comparison_data[university].get(section, "Not available"))
                         st.text("")  
 
+    import streamlit as st
     import pandas as pd
-    import numpy as np
 
-    st.title("Peta Lokasi")
+    st.title("Peta Lokasi dengan Titik di New York")
 
-    # Create a dataframe with random locations
-    df = pd.DataFrame({
-        'latitude': np.random.uniform(low=-90.0, high=90.0, size=100),
-        'longitude': np.random.uniform(low=-180.0, high=180.0, size=100)
-    })
+    # Koordinat untuk New York City
+    new_york_coords = {
+        'latitude': [40.7128],
+        'longitude': [-74.0060]
+    }
+
+    # DataFrame untuk peta
+    df = pd.DataFrame(new_york_coords)
 
     st.map(df)
+
+    st.write("Titik ini menunjukkan lokasi New York City.")
