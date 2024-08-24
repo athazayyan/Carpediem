@@ -13,8 +13,6 @@ test = st.sidebar.radio("Pilihan Menu", ["Banding Univ", "chatbot-bantu-persiapa
 if test == "chatbot-bantu-persiapan IISMA":
    
 
-
-
     def create_connection(db_file):
         conn = None
         try:
