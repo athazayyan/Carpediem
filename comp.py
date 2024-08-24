@@ -239,11 +239,13 @@ if test == "Banding Univ":
                         st.text(comparison_data[university].get(section, "Not available"))
                         st.text("")  
 
+    import time
 
-    st.title("Data dari API")
+    st.title("Progress Bar Example")
 
-    response = requests.get('https://iisma.kemdikbud.go.id/')
-    data = response.json()
-
-    st.write(data)
-
+    # A simple progress bar
+    progress_bar = st.progress(0)
+    for i in range(100):
+        time.sleep(0.1)
+        progress_bar.progress(i + 1)
+    st.success("Proses selesai!")
