@@ -246,18 +246,24 @@ if test == "Banding Univ":
     import folium
     from streamlit_folium import st_folium
 
-    st.title("Peta Lokasi Universitas")
+   st.title("Peta Lokasi Universitas")
 
-    latitude = 40.7295
-    longitude = -73.9965
+    universities = {
+        'New York University': [40.7295, -73.9965],
+        'Osaka University': [34.6937, 135.5023],
+        'University of Queensland': [-27.4974, 153.0120],
+        'University of Newcastle': [-32.9274, 151.7760]
+    }
 
-    m = folium.Map(location=[latitude, longitude], zoom_start=15)
+    m = folium.Map(location=[40.7295, -73.9965], zoom_start=5)
 
-    folium.Marker(
-        location=[latitude, longitude],
-        popup="New York University",
-        icon=folium.Icon(color='red', icon='info-sign')
-    ).add_to(m)
+    
+    for name, coord in universities.items():
+        folium.Marker(
+            location=coord,
+            popup=name,
+            icon=folium.Icon(color='blue', icon='info-sign')
+        ).add_to(m)
 
   
     st_folium(m, width=725)
