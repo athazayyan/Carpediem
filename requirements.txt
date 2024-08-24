@@ -2,6 +2,5 @@ streamlit
 requests
 beautifulsoup4
 Image
-json
 get_close_matches
 Path
