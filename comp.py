@@ -54,7 +54,7 @@ if test == "chatbot-bantu-persiapan IISMA":
         return rows
 
     def main():
-        st.title("Chatbot with SQLite")
+        st.title("Chatbot IISMA untuk bantu kamu")
 
         database = "knowledge.db"  
 
