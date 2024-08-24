@@ -1,0 +1,12 @@
+{
+    "input": [
+      {
+        "input": "example question",
+        "output": "example answer"
+      },
+      {
+        "input": "another question",
+        "output": "another answer"
+      }
+    ]
+}

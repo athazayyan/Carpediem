@@ -2,5 +2,6 @@ streamlit
 requests
 beautifulsoup4
 Image
-load_dotenv
-google.generativeai
+json
+os
+get_close_matches
