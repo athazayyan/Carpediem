@@ -5,75 +5,93 @@ from PIL import Image
 import json
 from difflib import get_close_matches
 from pathlib import Path
+import sqlite3
+from sqlite3 import Error
 
 test = st.sidebar.radio("Pilihan Menu", ["Banding Univ", "chatbot-bantu-persiapan IISMA"])
 
 if test == "chatbot-bantu-persiapan IISMA":
-    JSON_FILE = Path("ilmu.json")
+   
 
-    def akses_ilmu(file_path: Path) -> dict:
+
+    # Function to create a database connection
+    def create_connection(db_file):
+        conn = None
         try:
-            with file_path.open('r') as file:
-                data = json.load(file)
-            return data
-        except FileNotFoundError:
-            return {"input": []}
+            conn = sqlite3.connect(db_file)
+        except Error as e:
+            st.error(f"Error: {e}")
+        return conn
 
-    def save_ilmu(file_path: Path, data: dict):
-        with file_path.open('w') as file:
-            json.dump(data, file, indent=2)
+    # Function to create the knowledge table
+    def create_table(conn):
+        try:
+            sql_create_table = """ 
+            CREATE TABLE IF NOT EXISTS knowledge (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                question TEXT NOT NULL,
+                answer TEXT NOT NULL
+            ); 
+            """
+            c = conn.cursor()
+            c.execute(sql_create_table)
+        except Error as e:
+            st.error(f"Error: {e}")
 
-    def cari_jawaban(user_input: str, inputs: list[str]) -> str | None:
-        matches = get_close_matches(user_input, inputs, n=1, cutoff=0.6)
-        return matches[0] if matches else None
+    # Function to insert a new entry
+    def add_knowledge(conn, question, answer):
+        sql = ''' 
+        INSERT INTO knowledge(question, answer)
+        VALUES(?, ?)
+        '''
+        cur = conn.cursor()
+        cur.execute(sql, (question, answer))
+        conn.commit()
+        return cur.lastrowid
 
-    def dapat_jawaban(input: str, basis_ilmu: dict) -> str | None:
-        for q in basis_ilmu["input"]:
-            if q["input"].lower() == input.lower():
-                return q["output"]
-        return None
+    # Function to query the database
+    def get_knowledge(conn, question):
+        cur = conn.cursor()
+        cur.execute("SELECT answer FROM knowledge WHERE question=?", (question,))
+        rows = cur.fetchall()
+        return rows
 
-    def tambah_pengetahuan(pertanyaan: str, jawaban: str):
-        basis_ilmu = akses_ilmu(JSON_FILE)
-        basis_ilmu["input"].append({"input": pertanyaan, "output": jawaban})
-        save_ilmu(JSON_FILE, basis_ilmu)
-
+    # Main function for Streamlit
     def main():
-        st.title("Chatbot dengan Basis Pengetahuan")
+        st.title("Chatbot with SQLite")
 
-        if 'pertanyaan' not in st.session_state:
-            st.session_state.pertanyaan = ""
+        database = "knowledge.db"  # Your SQLite database file
 
-        pertanyaan = st.text_area("Anda:", value=st.session_state.pertanyaan, height=100)
-        st.session_state.pertanyaan = pertanyaan
+        # Create connection to database
+        conn = create_connection(database)
 
-        if st.button("Tanya"):
-            if pertanyaan:
-                basis_ilmu = akses_ilmu(JSON_FILE)
-                best_match = cari_jawaban(pertanyaan, [q["input"] for q in basis_ilmu["input"]])
-                
-                if best_match:
-                    output = dapat_jawaban(best_match, basis_ilmu)
-                    st.write(f"Bot: {output}")
+        # Create table if not exists
+        if conn:
+            create_table(conn)
+
+        question = st.text_input("Ask a question:")
+
+        if st.button("Submit"):
+            if question:
+                answer = get_knowledge(conn, question)
+                if answer:
+                    st.write(f"Answer: {answer[0][0]}")
                 else:
-                    st.write("Bot: Maaf, saya tidak mengerti pertanyaan Anda. Ajarin saya dong!")
-                    
-                    jawaban_baru = st.text_area("Jawaban yang benar:", height=100)
-                    if st.button("Simpan Jawaban"):
-                        if jawaban_baru.lower() != "skip":
-                            tambah_pengetahuan(pertanyaan, jawaban_baru)
-                            st.success(f"Pengetahuan baru ditambahkan: '{pertanyaan}': '{jawaban_baru}'")
+                    st.write("I don't know the answer. Please teach me.")
+                    new_answer = st.text_input("Your answer:")
+                    if st.button("Add to database"):
+                        if new_answer:
+                            add_knowledge(conn, question, new_answer)
+                            st.success("Knowledge added successfully!")
                         else:
-                            st.info("Pertanyaan dilewati.")
+                            st.error("Please provide an answer before adding to the database.")
             else:
-                st.warning("Mohon masukkan pertanyaan terlebih dahulu.")
+                st.error("Please enter a question.")
 
-        if st.button("Tampilkan Basis Pengetahuan"):
-            basis_ilmu = akses_ilmu(JSON_FILE)
-            st.json(basis_ilmu)
-
-    if __name__ == "__main__":
+    if __name__ == '__main__':
         main()
+
+
 
 if test == "Banding Univ":
     url_list = {
