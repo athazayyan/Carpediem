@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 import google.generativeai as genai
 from PIL import Image
+import os
 
 test = st.sidebar.radio("Pilihan Menu", ["Banding Univ", "chatbot-bantu-persiapan IISMA"])
 if test == "chatbot-bantu-persiapan IISMA":

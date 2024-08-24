@@ -4,3 +4,4 @@ beautifulsoup4
 Image
 load_dotenv
 google.generativeai
+os
