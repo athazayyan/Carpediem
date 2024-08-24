@@ -9,7 +9,7 @@ from difflib import get_close_matches
 test = st.sidebar.radio("Pilihan Menu", ["Banding Univ", "chatbot-bantu-persiapan IISMA"])
 if test == "chatbot-bantu-persiapan IISMA":
     JSON_FILE = os.path.join(os.path.dirname(__file__), "ilmu.json")
-
+    st.image("penyu2.png")
     def akses_ilmu(file_path: str) -> dict:
         if not os.path.exists(file_path) or os.path.getsize(file_path) == 0:
             return {"input": []}
