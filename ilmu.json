@@ -67,6 +67,50 @@
         {
             "input": "Who is the author of 'Pride and Prejudice'?",
             "output": "'Pride and Prejudice' was written by Jane Austen."
+        },
+        {
+            "input": "What is a thesis statement?",
+            "output": "A thesis statement is a sentence that summarizes the main point or claim of an essay. It is typically included in the introduction."
+        },
+        {
+            "input": "How do you structure an argumentative essay?",
+            "output": "An argumentative essay typically includes an introduction with a thesis statement, body paragraphs with supporting evidence, and a conclusion that summarizes the argument and reinforces the thesis."
+        },
+        {
+            "input": "What are the key components of a persuasive essay?",
+            "output": "Key components of a persuasive essay include a clear thesis statement, logical arguments supported by evidence, counterarguments, and a strong conclusion."
+        },
+        {
+            "input": "What is the purpose of a literature review in an essay?",
+            "output": "The purpose of a literature review is to survey and summarize existing research on a particular topic to provide context and support for the essay’s argument or thesis."
+        },
+        {
+            "input": "How can you improve your essay writing skills?",
+            "output": "To improve essay writing skills, practice writing regularly, read a variety of texts, seek feedback from others, and revise your work to enhance clarity, coherence, and argumentation."
+        },
+        {
+            "input": "What is IISMA?",
+            "output": "IISMA stands for Indonesian International Student Mobility Awards, a program designed to provide Indonesian students with opportunities to study abroad and gain international experience."
+        },
+        {
+            "input": "How can IISMA benefit students?",
+            "output": "IISMA provides students with the chance to experience different cultures, enhance their academic and professional skills, and build international networks."
+        },
+        {
+            "input": "What are the eligibility criteria for IISMA?",
+            "output": "Eligibility criteria for IISMA typically include being an active student at an Indonesian university and meeting specific academic and application requirements set by the program."
+        },
+        {
+            "input": "What is the application process for IISMA?",
+            "output": "The application process for IISMA involves submitting an application form, academic transcripts, a statement of purpose, and other required documents as outlined by the program."
+        },
+        {
+            "input": "What are the key components of the IISMA program?",
+            "output": "Key components of the IISMA program include studying abroad at partner institutions, participating in cultural exchange activities, and engaging in academic and professional development opportunities."
+        },
+        {
+            "input": "Hay",
+            "output": "hello there, my name is Penyu, what can I help U?."
         }
     ]
 }
