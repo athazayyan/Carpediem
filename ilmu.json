@@ -115,6 +115,120 @@
         {
             "input": "Hello",
             "output": "hello there, my name is Penyu, what can I help U?"
-        }
+        },
+    
+        {
+                    "input": "contoh pertanyaan",
+                    "output": "contoh jawaban"
+                },
+                {
+                    "input": "pertanyaan lainnya",
+                    "output": "jawaban lainnya"
+                },
+                {
+                    "input": "Apa rumus untuk luas lingkaran?",
+                    "output": "Luas lingkaran diberikan oleh rumus A = πr², di mana r adalah jari-jari lingkaran."
+                },
+                {
+                    "input": "Apa hukum kedua Newton tentang gerak?",
+                    "output": "Hukum kedua Newton tentang gerak menyatakan bahwa gaya yang bekerja pada suatu objek sama dengan massa objek dikalikan dengan percepatannya (F = ma)."
+                },
+                {
+                    "input": "Apa itu teorema Pythagoras?",
+                    "output": "Teorema Pythagoras menyatakan bahwa pada segitiga siku-siku, kuadrat dari hipotenusa sama dengan jumlah kuadrat dari kedua sisi lainnya (a² + b² = c²)."
+                },
+                {
+                    "input": "Apa ibu kota Prancis?",
+                    "output": "Ibu kota Prancis adalah Paris."
+                },
+                {
+                    "input": "Apa saja tiga keadaan materi?",
+                    "output": "Tiga keadaan materi adalah padat, cair, dan gas."
+                },
+                {
+                    "input": "Apa rumus kimia air?",
+                    "output": "Rumus kimia air adalah H₂O."
+                },
+                {
+                    "input": "Siapa penulis 'Romeo dan Juliet'?",
+                    "output": "'Romeo dan Juliet' ditulis oleh William Shakespeare."
+                },
+                {
+                    "input": "Berapa kecepatan cahaya?",
+                    "output": "Kecepatan cahaya dalam ruang hampa adalah sekitar 299.792.458 meter per detik."
+                },
+                {
+                    "input": "Apa nama proses pembelahan sel?",
+                    "output": "Proses pembelahan sel disebut mitosis."
+                },
+                {
+                    "input": "Siapa yang mengembangkan teori relativitas?",
+                    "output": "Teori relativitas dikembangkan oleh Albert Einstein."
+                },
+                {
+                    "input": "Apa planet terbesar di tata surya kita?",
+                    "output": "Planet terbesar di tata surya kita adalah Jupiter."
+                },
+                {
+                    "input": "Apa rumus untuk keliling lingkaran?",
+                    "output": "Keliling lingkaran diberikan oleh rumus C = 2πr, di mana r adalah jari-jari lingkaran."
+                },
+                {
+                    "input": "Apa organel yang dikenal sebagai pembangkit tenaga sel?",
+                    "output": "Organel yang dikenal sebagai pembangkit tenaga sel adalah mitokondria."
+                },
+                {
+                    "input": "Berapa titik didih air?",
+                    "output": "Titik didih air adalah 100°C (212°F) pada tekanan atmosfer standar."
+                },
+                {
+                    "input": "Siapa penulis 'Pride and Prejudice'?",
+                    "output": "'Pride and Prejudice' ditulis oleh Jane Austen."
+                },
+               
+                {
+                    "input": "Apa itu pernyataan tesis?",
+                    "output": "Pernyataan tesis adalah kalimat yang merangkum poin utama atau klaim dari sebuah esai. Biasanya terdapat di bagian pengantar."
+                },
+                {
+                    "input": "Bagaimana cara menyusun esai argumentatif?",
+                    "output": "Esai argumentatif biasanya mencakup pengantar dengan pernyataan tesis, paragraf tubuh dengan bukti pendukung, dan kesimpulan yang merangkum argumen serta memperkuat tesis."
+                },
+                {
+                    "input": "Apa saja komponen utama dari esai persuasif?",
+                    "output": "Komponen utama dari esai persuasif meliputi pernyataan tesis yang jelas, argumen logis yang didukung oleh bukti, kontra-argumen, dan kesimpulan yang kuat."
+                },
+                {
+                    "input": "Apa tujuan dari tinjauan pustaka dalam esai?",
+                    "output": "Tujuan dari tinjauan pustaka adalah untuk meninjau dan merangkum penelitian yang ada tentang topik tertentu untuk memberikan konteks dan dukungan terhadap argumen atau tesis esai."
+                },
+                {
+                    "input": "Bagaimana cara meningkatkan keterampilan menulis esai?",
+                    "output": "Untuk meningkatkan keterampilan menulis esai, latihlah menulis secara teratur, baca berbagai teks, cari umpan balik dari orang lain, dan revisi pekerjaan Anda untuk meningkatkan kejelasan, koherensi, dan argumentasi."
+                },
+               
+                {
+                    "input": "Apa itu IISMA?",
+                    "output": "IISMA adalah singkatan dari Indonesian International Student Mobility Awards, sebuah program yang dirancang untuk memberikan kesempatan kepada mahasiswa Indonesia untuk belajar di luar negeri dan mendapatkan pengalaman internasional."
+                },
+                {
+                    "input": "Bagaimana IISMA dapat menguntungkan mahasiswa?",
+                    "output": "IISMA memberikan kesempatan kepada mahasiswa untuk mengalami berbagai budaya, meningkatkan keterampilan akademik dan profesional mereka, serta membangun jaringan internasional."
+                },
+                {
+                    "input": "Apa syarat kelayakan untuk IISMA?",
+                    "output": "Syarat kelayakan untuk IISMA meliputi menjadi mahasiswa aktif di universitas Indonesia, memiliki IPK minimum, memenuhi standar kemampuan bahasa, dan memenuhi kriteria spesifik program lainnya."
+                },
+                {
+                    "input": "Bagaimana proses pendaftaran untuk IISMA?",
+                    "output": "Proses pendaftaran untuk IISMA melibatkan pengisian formulir pendaftaran, transkrip akademik, pernyataan tujuan, surat rekomendasi, dan dokumen lain yang diperlukan sesuai dengan program."
+                },
+                {
+                    "input": "Apa saja komponen utama dari program IISMA?",
+                    "output": "Komponen utama dari program IISMA meliputi belajar di luar negeri di institusi mitra, berpartisipasi dalam kegiatan pertukaran budaya, dan terlibat dalam kesempatan pengembangan akademik dan profesional."
+                }
+            
+        
+        
     ]
 }
