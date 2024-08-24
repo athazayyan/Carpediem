@@ -241,20 +241,23 @@ if test == "Banding Univ":
 
 
 
+    
     import streamlit as st
-    import pandas as pd
+    import folium
+    from streamlit_folium import st_folium
 
-    st.title("Peta Lokasi dengan Titik Universitas")
+    st.title("Peta Lokasi Universitas")
 
-    # Koordinat untuk New York City
-    new_york_coords = {
-        'latitude': [40.7128],
-        'longitude': [-74.0060]
-    }
+    latitude = 40.7295
+    longitude = -73.9965
 
-    # DataFrame untuk peta
-    df = pd.DataFrame(new_york_coords)
+    m = folium.Map(location=[latitude, longitude], zoom_start=15)
 
-    st.map(df)
+    folium.Marker(
+        location=[latitude, longitude],
+        popup="New York University",
+        icon=folium.Icon(color='red', icon='info-sign')
+    ).add_to(m)
 
-    st.write("Titik ini menunjukkan lokasi New York City.")
+  
+    st_folium(m, width=725)
