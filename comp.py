@@ -251,7 +251,7 @@ if test == "Banding Univ":
     }
 
     # DataFrame untuk peta
-    df = pd.DataFrame(new_york_coords)
+    df = pd.DataFrame(new_york_univ_coords)
 
     st.map(df)
 
