@@ -239,15 +239,6 @@ if test == "Banding Univ":
                         st.text(comparison_data[university].get(section, "Not available"))
                         st.text("")  
 
-    import time
-
-
-
-    
-    progress_bar = st.progress(0)
-    for i in range(100):
-        time.sleep(0.012)
-        progress_bar.progress(i + 1)
     import pandas as pd
     import numpy as np
 
