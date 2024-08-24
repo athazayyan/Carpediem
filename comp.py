@@ -248,3 +248,15 @@ if test == "Banding Univ":
     for i in range(100):
         time.sleep(0.012)
         progress_bar.progress(i + 1)
+    import pandas as pd
+    import numpy as np
+
+    st.title("Peta Lokasi")
+
+    # Create a dataframe with random locations
+    df = pd.DataFrame({
+        'latitude': np.random.uniform(low=-90.0, high=90.0, size=100),
+        'longitude': np.random.uniform(low=-180.0, high=180.0, size=100)
+    })
+
+    st.map(df)
