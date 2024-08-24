@@ -3,5 +3,4 @@ requests
 beautifulsoup4
 Image
 load_dotenv
-os
 google.generativeai

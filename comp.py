@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-import os
 import google.generativeai as genai
 from PIL import Image
 
