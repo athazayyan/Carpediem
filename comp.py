@@ -39,33 +39,34 @@ if test == "chatbot-bantu-persiapan IISMA":
         st.title("Penyu dan IISMA-Mu")
         st.text("Kalau aku tak tahu, bisa train aku ya") 
         st.text("usahakan pakai bahasa Inggris")
+        col1, col2 = st.columns([2, 1]) 
+        with col1:
+            if 'pertanyaan' not in st.session_state:
+                st.session_state.pertanyaan = ""
 
-        if 'pertanyaan' not in st.session_state:
-            st.session_state.pertanyaan = ""
+            pertanyaan = st.text_area("Anda:", value=st.session_state.pertanyaan, height=100)
+            st.session_state.pertanyaan = pertanyaan
 
-        pertanyaan = st.text_area("Anda:", value=st.session_state.pertanyaan, height=100)
-        st.session_state.pertanyaan = pertanyaan
+            if st.button("Tanya"):
+                if pertanyaan:
+                    basis_ilmu = akses_ilmu(JSON_FILE)
+                    best_match = cari_jawaban(pertanyaan, [q["input"] for q in basis_ilmu["input"]])
 
-        if st.button("Tanya"):
-            if pertanyaan:
-                basis_ilmu = akses_ilmu(JSON_FILE)
-                best_match = cari_jawaban(pertanyaan, [q["input"] for q in basis_ilmu["input"]])
+                    if best_match:
+                        output = dapat_jawaban(best_match, basis_ilmu)
+                        st.write(f"Bot: {output}")
+                    else:
+                        st.write("Bot: Maaf, saya tidak mengerti pertanyaan Anda. Ajarin saya dong!")
 
-                if best_match:
-                    output = dapat_jawaban(best_match, basis_ilmu)
-                    st.write(f"Bot: {output}")
+                        jawaban_baru = st.text_area("Jawaban yang benar:", height=100)
+                        if st.button("Simpan Jawaban"):
+                            if jawaban_baru.lower() != "skip":
+                                tambah_pengetahuan(pertanyaan, jawaban_baru)
+                                st.success(f"Pengetahuan baru ditambahkan: '{pertanyaan}': '{jawaban_baru}'")
+                            else:
+                                st.info("Pertanyaan dilewati.")
                 else:
-                    st.write("Bot: Maaf, saya tidak mengerti pertanyaan Anda. Ajarin saya dong!")
-
-                    jawaban_baru = st.text_area("Jawaban yang benar:", height=100)
-                    if st.button("Simpan Jawaban"):
-                        if jawaban_baru.lower() != "skip":
-                            tambah_pengetahuan(pertanyaan, jawaban_baru)
-                            st.success(f"Pengetahuan baru ditambahkan: '{pertanyaan}': '{jawaban_baru}'")
-                        else:
-                            st.info("Pertanyaan dilewati.")
-            else:
-                st.warning("Mohon masukkan pertanyaan terlebih dahulu.")
+                    st.warning("Mohon masukkan pertanyaan terlebih dahulu.")
 
 
     if __name__ == "__main__":
