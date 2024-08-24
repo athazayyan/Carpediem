@@ -248,4 +248,3 @@ if test == "Banding Univ":
     for i in range(100):
         time.sleep(0.012)
         progress_bar.progress(i + 1)
-    st.success("Proses selesai!")
