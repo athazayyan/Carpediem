@@ -14,7 +14,7 @@ if test == "chatbot-bantu-persiapan IISMA":
    
 
 
-    # Function to create a database connection
+
     def create_connection(db_file):
         conn = None
         try:
@@ -23,7 +23,6 @@ if test == "chatbot-bantu-persiapan IISMA":
             st.error(f"Error: {e}")
         return conn
 
-    # Function to create the knowledge table
     def create_table(conn):
         try:
             sql_create_table = """ 
@@ -38,7 +37,7 @@ if test == "chatbot-bantu-persiapan IISMA":
         except Error as e:
             st.error(f"Error: {e}")
 
-    # Function to insert a new entry
+
     def add_knowledge(conn, question, answer):
         sql = ''' 
         INSERT INTO knowledge(question, answer)
@@ -49,23 +48,20 @@ if test == "chatbot-bantu-persiapan IISMA":
         conn.commit()
         return cur.lastrowid
 
-    # Function to query the database
+
     def get_knowledge(conn, question):
         cur = conn.cursor()
         cur.execute("SELECT answer FROM knowledge WHERE question=?", (question,))
         rows = cur.fetchall()
         return rows
 
-    # Main function for Streamlit
     def main():
         st.title("Chatbot with SQLite")
 
-        database = "knowledge.db"  # Your SQLite database file
+        database = "knowledge.db"  
 
-        # Create connection to database
+
         conn = create_connection(database)
-
-        # Create table if not exists
         if conn:
             create_table(conn)
 
