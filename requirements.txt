@@ -3,4 +3,4 @@ requests
 beautifulsoup4
 Pillow
 folium
-st_folium
+streamlit-folium
