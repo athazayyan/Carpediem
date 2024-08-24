@@ -349,6 +349,7 @@ if test == "Banding Univ":
         "Newcastle University": [54.9784, -1.6174],
         "University of Edinburgh": [55.9444, -3.1883],
         "University College Dublin": [53.3065, -6.2224],
+        "Syiah Kuala University": [5.5502, 95.3164],
         "University College Cork": [51.8970, -8.4706]
     }
 
