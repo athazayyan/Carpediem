@@ -4,13 +4,12 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 import google.generativeai as genai
 from PIL import Image
-import os
 
 test = st.sidebar.radio("Pilihan Menu", ["Banding Univ", "chatbot-bantu-persiapan IISMA"])
 if test == "chatbot-bantu-persiapan IISMA":
     st.image("penyu2.png")
     load_dotenv()
-    api_key = os.getenv("GOOGLE_API_KEY")
+    api_key = st.secrets["GOOGLE_API_KEY"]
 
     genai.configure(api_key=api_key)
 
