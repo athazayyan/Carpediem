@@ -3,18 +3,22 @@ import requests
 from bs4 import BeautifulSoup
 from PIL import Image
 import json
-import os
 from difflib import get_close_matches
+from pathlib import Path
 
 test = st.sidebar.radio("Pilihan Menu", ["Banding Univ", "chatbot-bantu-persiapan IISMA"])
 if test == "chatbot-bantu-persiapan IISMA":
-    JSON_FILE = os.path.join(os.path.dirname(__file__), "ilmu.json")
+
+    JSON_FILE = Path("ilmu.json")
 
     def akses_ilmu(file_path: str) -> dict:
-        if not os.path.exists(file_path) or os.path.getsize(file_path) == 0:
-            return {"input": []}
+        def akses_ilmu(file_path: str) -> dict:
+        try:
         with open(file_path, 'r') as file:
-            return json.load(file)
+            data = json.load(file)
+        return data
+        except FileNotFoundError:
+        return {"input": []}
 
     def save_ilmu(file_path: str, data: dict):
         with open(file_path, 'w') as file:
