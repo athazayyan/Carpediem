@@ -246,7 +246,7 @@ if test == "Banding Univ":
     import folium
     from streamlit_folium import st_folium
 
-   st.title("Peta Lokasi Universitas")
+    st.title("Peta Lokasi Universitas")
 
     universities = {
         'New York University': [40.7295, -73.9965],
