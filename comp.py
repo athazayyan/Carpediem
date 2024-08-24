@@ -239,10 +239,12 @@ if test == "Banding Univ":
                         st.text(comparison_data[university].get(section, "Not available"))
                         st.text("")  
 
+
+
     import streamlit as st
     import pandas as pd
 
-    st.title("Peta Lokasi dengan Titik di New York")
+    st.title("Peta Lokasi dengan Titik Universitas")
 
     # Koordinat untuk New York City
     new_york_coords = {
@@ -251,7 +253,7 @@ if test == "Banding Univ":
     }
 
     # DataFrame untuk peta
-    df = pd.DataFrame(new_york_univ_coords)
+    df = pd.DataFrame(new_york_coords)
 
     st.map(df)
 
