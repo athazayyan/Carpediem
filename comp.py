@@ -37,7 +37,8 @@ if test == "chatbot-bantu-persiapan IISMA":
 
     def main():
         st.title("Penyu dan IISMA-Mu")
-        st.text("Kalau aku tak tahu, bisa train aku ya, & usahakan pakai bahasa Inggris")
+        st.text("Kalau aku tak tahu, bisa train aku ya") 
+        st.text("usahakan pakai bahasa Inggris")
 
         if 'pertanyaan' not in st.session_state:
             st.session_state.pertanyaan = ""
