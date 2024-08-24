@@ -110,7 +110,11 @@
         },
         {
             "input": "Hay",
-            "output": "hello there, my name is Penyu, what can I help U?."
+            "output": "hello there, my name is Penyu, what can I help U?"
+        },
+        {
+            "input": "Hello",
+            "output": "hello there, my name is Penyu, what can I help U?"
         }
     ]
 }
