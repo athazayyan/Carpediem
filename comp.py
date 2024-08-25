@@ -243,7 +243,7 @@ if test == "Banding Univ":
 
 
     
-if test == "chatbot-bantu-persiapan IISMA":
+if test == "Univ Map":
 
     def display_university_map():
         st.title("🌍 Interactive University Location Map")
