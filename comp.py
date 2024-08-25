@@ -237,7 +237,7 @@ if test == "Banding Univ":
         }
     
 
-    if st.button("Fetch and Compare Information", key="fetch_button"):
+    if st.button("Bandingkan", key="banding"):
         if not selected_universities:
             st.warning("Please select at least one university.")
         else:
