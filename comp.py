@@ -44,8 +44,8 @@ if test == "chatbot-bantu-persiapan IISMA":
         st.title("Penyu dan IISMA-Mu")
         st.text("Kalau aku tak tahu, bisa train aku ya") 
         st.text("usahakan pakai bahasa Inggris")
-        col1, col2 = st.columns([2, 1]) 
-        with col1:
+        col1, col2, col3 = st.beta_columns(3) 
+        with col2:
             if 'pertanyaan' not in st.session_state:
                 st.session_state.pertanyaan = ""
 
@@ -235,8 +235,10 @@ if test == "Banding Univ":
             'Start Date': datetime.strptime(start_date.group(1), '%d/%m/%Y') if start_date else None,
             'End Date': datetime.strptime(end_date.group(1), '%d/%m/%Y') if end_date else None
         }
+    
 
-    if st.button("Fetch and Compare Information", key="fetch_button"):
+    col1, col2, col3 = st.beta_columns(3)
+    if col2.button('Bandingkan'):
         if not selected_universities:
             st.warning("Please select at least one university.")
         else:
