@@ -203,6 +203,152 @@ if test == "Banding Univ":
         "University of Birmingham": "https://iisma.kemdikbud.go.id/info/28-university-of-birmingham/"
     }
 
+    st.title("Bandingkan Universitas IISMA Pilihanmu")
+
+    selected_universities = st.multiselect("Choose universities to compare", list(url_list.keys()))
+
+    def extract_scores(text):
+        toefl = re.search(r'TOEFL iBT:?\s*(\d+)', text)
+        ielts = re.search(r'IELTS:?\s*([\d.]+)', text)
+        duolingo = re.search(r'Duolingo English Test:?\s*(\d+)', text)
+        
+        return {
+            'TOEFL': int(toefl.group(1)) if toefl else None,
+            'IELTS': float(ielts.group(1)) if ielts else None,
+            'Duolingo': int(duolingo.group(1)) if duolingo else None
+        }
+
+    def extract_intake_stats(text):
+        applicants = re.search(r'Applicants\s*:\s*(\d+)', text)
+        awardees = re.search(r'Awardees\s*:\s*(\d+)', text)
+        stats = {}
+        if applicants:
+            stats['Applicants'] = int(applicants.group(1))
+        if awardees:
+            stats['Awardees'] = int(awardees.group(1))
+        return stats
+
+    def extract_academic_dates(text):
+        start_date = re.search(r'Start Date\s*:\s*(\d{2}/\d{2}/\d{4})', text)
+        end_date = re.search(r'End Date\s*:\s*(\d{2}/\d{2}/\d{4})', text)
+        return {
+            'Start Date': datetime.strptime(start_date.group(1), '%d/%m/%Y') if start_date else None,
+            'End Date': datetime.strptime(end_date.group(1), '%d/%m/%Y') if end_date else None
+        }
+
+    if st.button("Fetch and Compare Information"):
+        if not selected_universities:
+            st.warning("Please select at least one university.")
+        else:
+            comparison_data = {}
+            scores_data = {}
+            intake_data = {}
+            academic_dates = {}
+            
+            for university in selected_universities:
+                url = url_list[university]
+                try:
+                    response = requests.get(url, timeout=10)
+                    response.raise_for_status()
+                    soup = BeautifulSoup(response.content, 'html.parser')
+                    
+                    university_data = {}
+                    for section, data_tab in [("Requirements", '2'), ("Academic Period", '3'), ("Statistics on Intake", '4')]:
+                        tab = soup.find('div', {'data-tab': data_tab, 'role': 'tabpanel'})
+                        if tab:
+                            content = tab.get_text(strip=True, separator='\n')
+                            university_data[section] = content
+                            if section == "Requirements":
+                                scores_data[university] = extract_scores(content)
+                            elif section == "Statistics on Intake":
+                                print(f"Raw Statistics on Intake for {university}:")
+                                print(content)
+                                intake_data[university] = extract_intake_stats(content)
+                            elif section == "Academic Period":
+                                academic_dates[university] = extract_academic_dates(content)
+                        else:
+                            university_data[section] = "Not found"
+                            
+                    comparison_data[university] = university_data
+                    
+                except requests.RequestException as e:
+                    st.error(f"Error fetching data for {university}: {str(e)}")
+                except Exception as e:
+                    st.error(f"An unexpected error occurred for {university}: {str(e)}")
+            
+            if comparison_data:
+                for section in ["Requirements", "Academic Period", "Statistics on Intake"]:
+                    st.subheader(section)
+                    col1, col2 = st.columns([3, 2])
+                    
+                    with col1:
+                        for university in selected_universities:
+                            st.text(f"{university}:")
+                            st.text(comparison_data[university].get(section, "Not available"))
+                            st.text("")
+                    
+                    if section == "Requirements":
+                        with col2:
+                            df = pd.DataFrame(scores_data).T
+                            fig = go.Figure()
+                            for score_type in ['TOEFL', 'IELTS', 'Duolingo']:
+                                fig.add_trace(go.Bar(
+                                    x=df.index,
+                                    y=df[score_type],
+                                    name=score_type
+                                ))
+                            fig.update_layout(
+                                title="English Test Score Requirements",
+                                xaxis_title="University",
+                                yaxis_title="Score",
+                                barmode='group'
+                            )
+                            st.plotly_chart(fig)
+
+            
+                st.subheader("Statistics on Intake")
+                if intake_data:
+                    intake_df = pd.DataFrame(intake_data).T
+                    if not intake_df.empty and 'Applicants' in intake_df.columns and 'Awardees' in intake_df.columns:
+                        fig_intake = go.Figure()
+                        for stat in ['Applicants', 'Awardees']:
+                            fig_intake.add_trace(go.Bar(
+                                x=intake_df.index,
+                                y=intake_df[stat],
+                                name=stat
+                            ))
+                        fig_intake.update_layout(
+                            title="Applicants and Awardees",
+                            xaxis_title="University",
+                            yaxis_title="Number of Students",
+                            barmode='group'
+                        )
+                        st.plotly_chart(fig_intake)
+                    else:
+                        st.warning("Intake data is incomplete or in an unexpected format.")
+                else:
+                    st.info("No intake data available for the selected universities.")
+
+            
+                st.subheader("Academic Period")
+                if academic_dates:
+                    valid_dates = [dict(Task=uni, Start=dates['Start Date'], Finish=dates['End Date'])
+                                for uni, dates in academic_dates.items() 
+                                if dates['Start Date'] and dates['End Date']]
+                    if valid_dates:
+                        fig_dates = ff.create_gantt(
+                            df=valid_dates,
+                            index_col='Task',
+                            show_colorbar=True,
+                            group_tasks=True
+                        )
+                        fig_dates.update_layout(title="Academic Period Timeline")
+                        st.plotly_chart(fig_dates)
+                    else:
+                        st.warning("No valid academic dates found for the selected universities.")
+                else:
+                    st.info("No academic period data available for the selected universities.")
+
         
     st.title("Bandingkan Universitas IISMA Pilihanmu")
 
