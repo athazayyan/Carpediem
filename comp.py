@@ -5,6 +5,8 @@ from PIL import Image
 import json
 import os
 from difflib import get_close_matches
+import folium
+from streamlit_folium import st_folium
 
 test = st.sidebar.radio("Pilihan Menu", ["Banding Univ", "chatbot-bantu-persiapan IISMA"])
 if test == "chatbot-bantu-persiapan IISMA":
@@ -230,7 +232,6 @@ if test == "Banding Univ":
                 except Exception as e:
                     st.error(f"An unexpected error occurred for {university}: {str(e)}")
             
-            # Display comparison
             if comparison_data:
                 for section in ["Requirements", "Academic Period", "Statistics on Intake"]:
                     st.subheader(section)
@@ -243,8 +244,6 @@ if test == "Banding Univ":
 
     
 
-    import folium
-    from streamlit_folium import st_folium
 
     st.title("Peta Lokasi Universitas")
 
