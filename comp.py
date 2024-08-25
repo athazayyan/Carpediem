@@ -244,14 +244,16 @@ if test == "Banding Univ":
 
     
 if test == "Univ Map":
+    import streamlit as st
+    import folium
+    from streamlit_folium import st_folium
     import random
 
     def display_interactive_university_map():
         st.title("🌍 University Explorer: Around the World in 80 Clicks!")
         st.write("Discover universities globally and test your geography knowledge!")
 
-        
-    universities = {
+        universities = {
         "University of Michigan": [42.2780, -83.7382],
         "NYU": [40.7295, -73.9965],
         "Georgetown": [38.9084, -77.0377],
@@ -361,7 +363,7 @@ if test == "Univ Map":
         if 'visited' not in st.session_state:
             st.session_state.visited = set()
 
-     
+        
         with st.sidebar:
             st.header("🏆 Explorer Stats")
             st.metric("Score", st.session_state.score)
@@ -371,6 +373,7 @@ if test == "Univ Map":
                 st.session_state.visited = set()
                 st.experimental_rerun()
 
+        # Search and Quiz mode
         mode = st.radio("Choose your mode:", ["🔍 Search", "❓ Quiz"])
 
         m = folium.Map(location=[20, 0], zoom_start=2)
@@ -380,7 +383,7 @@ if test == "Univ Map":
                 return 'green'
             return 'blue'
 
-       
+        # Add markers for all universities
         for name, coord in universities.items():
             color = get_marker_color(name)
             folium.Marker(
@@ -447,9 +450,10 @@ if test == "Univ Map":
                     icon=folium.Icon(color='red', icon='info-sign')
                 ).add_to(m)
 
-        
+       
         st_folium(m, width=725, height=500)
 
+      
         st.info("📌 Blue: Undiscovered | 🟢 Green: Visited | 🔴 Red: Quiz Answer")
         st.write(f"Total universities: {len(universities)} | Discovered: {len(st.session_state.visited)}")
 
