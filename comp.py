@@ -245,10 +245,6 @@ if test == "Banding Univ":
     
 if test == "chatbot-bantu-persiapan IISMA":
 
-    import streamlit as st
-    import folium
-    from streamlit_folium import st_folium
-
     def display_university_map():
         st.title("🌍 Interactive University Location Map")
         st.write("Explore universities around the world!")
@@ -264,15 +260,14 @@ if test == "chatbot-bantu-persiapan IISMA":
         search_query = st.text_input("🔍 Search for a university:", 
                                     help="Enter a university name to highlight it on the map")
 
-        # Create a base map
-        m = folium.Map(location=[20, 0], zoom_start=2)  # World view
+       
+        m = folium.Map(location=[20, 0], zoom_start=2)  
 
         def get_marker_color(name):
             if search_query.lower() in name.lower():
                 return 'red'
             return 'blue'
 
-        # Add markers for all universities
         for name, coord in universities.items():
             color = get_marker_color(name)
             folium.Marker(
@@ -281,7 +276,7 @@ if test == "chatbot-bantu-persiapan IISMA":
                 icon=folium.Icon(color=color, icon='university')
             ).add_to(m)
 
-        # Focus on searched university if found
+    
         if search_query:
             matching_universities = {name: coord for name, coord in universities.items() 
                                     if search_query.lower() in name.lower()}
@@ -290,10 +285,10 @@ if test == "chatbot-bantu-persiapan IISMA":
                 m.location = first_match
                 m.zoom_start = 8
 
-        # Display the map
+    
         st_folium(m, width=725, height=500)
 
-        # Additional information
+    
         st.info("📌 Blue markers: All universities | 🔴 Red markers: Search matches")
         st.write("Total universities shown:", len(universities))
 
