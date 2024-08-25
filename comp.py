@@ -205,8 +205,7 @@ if test == "Banding Univ":
 
     st.title("Bandingkan Universitas IISMA Pilihanmu")
 
-    for i, university in enumerate(universities):
-        st.multiselect(f"Select options for {university}", options, key=f"multiselect_{i}")
+    selected_universities = st.multiselect("Choose universities to compare", list(url_list.keys()), key="university_selector")
 
     def extract_scores(text):
         toefl = re.search(r'TOEFL iBT:?\s*(\d+)', text)
