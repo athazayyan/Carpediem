@@ -44,8 +44,8 @@ if test == "chatbot-bantu-persiapan IISMA":
         st.title("Penyu dan IISMA-Mu")
         st.text("Kalau aku tak tahu, bisa train aku ya") 
         st.text("usahakan pakai bahasa Inggris")
-        col1, col2, col3 = st.columns([3, 1]) 
-        with col2:
+        col1, col2 = st.columns([2, 1]) 
+        with col1:
             if 'pertanyaan' not in st.session_state:
                 st.session_state.pertanyaan = ""
 
