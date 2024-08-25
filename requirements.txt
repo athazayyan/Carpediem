@@ -4,4 +4,3 @@ beautifulsoup4
 Pillow
 folium
 streamlit-folium
-plotly.graph_objects
