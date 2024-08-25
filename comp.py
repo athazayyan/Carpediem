@@ -44,7 +44,7 @@ if test == "chatbot-bantu-persiapan IISMA":
         st.title("Penyu dan IISMA-Mu")
         st.text("Kalau aku tak tahu, bisa train aku ya") 
         st.text("usahakan pakai bahasa Inggris")
-        col1, col2, col3 = st.beta_columns(3) 
+        col1, col2, col3 = st.columns([3, 1]) 
         with col2:
             if 'pertanyaan' not in st.session_state:
                 st.session_state.pertanyaan = ""
@@ -237,8 +237,7 @@ if test == "Banding Univ":
         }
     
 
-    col1, col2, col3 = st.beta_columns(3)
-    with col2.button('Bandingkan'):
+    if st.button("Fetch and Compare Information", key="fetch_button"):
         if not selected_universities:
             st.warning("Please select at least one university.")
         else:
