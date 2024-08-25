@@ -7,6 +7,9 @@ import os
 from difflib import get_close_matches
 import folium
 from streamlit_folium import st_folium
+import re
+import pandas as pd
+import plotly.graph_objects as go
 
 test = st.sidebar.radio("Pilihan Menu", ["Banding Univ", "chatbot-bantu-persiapan IISMA", "Univ Map"])
 if test == "chatbot-bantu-persiapan IISMA":
@@ -200,33 +203,49 @@ if test == "Banding Univ":
         "University of Birmingham": "https://iisma.kemdikbud.go.id/info/28-university-of-birmingham/"
     }
 
+        
     st.title("Bandingkan Universitas IISMA Pilihanmu")
 
     selected_universities = st.multiselect("Choose universities to compare", list(url_list.keys()))
+
+    def extract_scores(text):
+        toefl = re.search(r'TOEFL iBT:?\s*(\d+)', text)
+        ielts = re.search(r'IELTS:?\s*([\d.]+)', text)
+        duolingo = re.search(r'Duolingo English Test:?\s*(\d+)', text)
+        
+        return {
+            'TOEFL': int(toefl.group(1)) if toefl else None,
+            'IELTS': float(ielts.group(1)) if ielts else None,
+            'Duolingo': int(duolingo.group(1)) if duolingo else None
+        }
 
     if st.button("Fetch and Compare Information"):
         if not selected_universities:
             st.warning("Please select at least one university.")
         else:
             comparison_data = {}
+            scores_data = {}
+            
             for university in selected_universities:
                 url = url_list[university]
                 try:
                     response = requests.get(url, timeout=10)
                     response.raise_for_status()
                     soup = BeautifulSoup(response.content, 'html.parser')
-
+                    
                     university_data = {}
                     for section, data_tab in [("Requirements", '2'), ("Academic Period", '3'), ("Statistics on Intake", '4')]:
                         tab = soup.find('div', {'data-tab': data_tab, 'role': 'tabpanel'})
                         if tab:
                             content = tab.get_text(strip=True, separator='\n')
                             university_data[section] = content
+                            if section == "Requirements":
+                                scores_data[university] = extract_scores(content)
                         else:
                             university_data[section] = "Not found"
-                    
+                            
                     comparison_data[university] = university_data
-
+                    
                 except requests.RequestException as e:
                     st.error(f"Error fetching data for {university}: {str(e)}")
                 except Exception as e:
@@ -235,10 +254,31 @@ if test == "Banding Univ":
             if comparison_data:
                 for section in ["Requirements", "Academic Period", "Statistics on Intake"]:
                     st.subheader(section)
-                    for university in selected_universities:
-                        st.text(f"{university}:")
-                        st.text(comparison_data[university].get(section, "Not available"))
-                        st.text("")  
+                    col1, col2 = st.columns([3, 2])
+                    
+                    with col1:
+                        for university in selected_universities:
+                            st.text(f"{university}:")
+                            st.text(comparison_data[university].get(section, "Not available"))
+                            st.text("")
+                    
+                    if section == "Requirements":
+                        with col2:
+                            df = pd.DataFrame(scores_data).T
+                            fig = go.Figure()
+                            for score_type in ['TOEFL', 'IELTS', 'Duolingo']:
+                                fig.add_trace(go.Bar(
+                                    x=df.index,
+                                    y=df[score_type],
+                                    name=score_type
+                                ))
+                            fig.update_layout(
+                                title="English Test Score Requirements",
+                                xaxis_title="University",
+                                yaxis_title="Score",
+                                barmode='group'
+                            )
+                            st.plotly_chart(fig)
 
 
 
