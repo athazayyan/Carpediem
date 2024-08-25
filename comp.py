@@ -238,7 +238,7 @@ if test == "Banding Univ":
     
 
     col1, col2, col3 = st.beta_columns(3)
-    if col2.button('Bandingkan'):
+    with col2.button('Bandingkan'):
         if not selected_universities:
             st.warning("Please select at least one university.")
         else:
