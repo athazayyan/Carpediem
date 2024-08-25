@@ -8,7 +8,7 @@ from difflib import get_close_matches
 import folium
 from streamlit_folium import st_folium
 
-test = st.sidebar.radio("Pilihan Menu", ["Banding Univ", "chatbot-bantu-persiapan IISMA"])
+test = st.sidebar.radio("Pilihan Menu", ["Banding Univ", "chatbot-bantu-persiapan IISMA", "Univ Map"])
 if test == "chatbot-bantu-persiapan IISMA":
     JSON_FILE = os.path.join(os.path.dirname(__file__), "ilmu.json")
     st.image("penyu2.png")
@@ -243,59 +243,59 @@ if test == "Banding Univ":
 
 
     
+if test == "chatbot-bantu-persiapan IISMA":
 
+    import streamlit as st
+    import folium
+    from streamlit_folium import st_folium
 
-import streamlit as st
-import folium
-from streamlit_folium import st_folium
+    def display_university_map():
+        st.title("🌍 Interactive University Location Map")
+        st.write("Explore universities around the world!")
 
-def display_university_map():
-    st.title("🌍 Interactive University Location Map")
-    st.write("Explore universities around the world!")
+        universities = {
+            "University of Michigan": [42.2780, -83.7382],
+            "NYU": [40.7295, -73.9965],
+            "Georgetown": [38.9084, -77.0377],
+            # ... [rest of the universities] ...
+            "University College Cork": [51.8970, -8.4706]
+        }
 
-    universities = {
-        "University of Michigan": [42.2780, -83.7382],
-        "NYU": [40.7295, -73.9965],
-        "Georgetown": [38.9084, -77.0377],
-        # ... [rest of the universities] ...
-        "University College Cork": [51.8970, -8.4706]
-    }
+        search_query = st.text_input("🔍 Search for a university:", 
+                                    help="Enter a university name to highlight it on the map")
 
-    search_query = st.text_input("🔍 Search for a university:", 
-                                 help="Enter a university name to highlight it on the map")
+        # Create a base map
+        m = folium.Map(location=[20, 0], zoom_start=2)  # World view
 
-    # Create a base map
-    m = folium.Map(location=[20, 0], zoom_start=2)  # World view
+        def get_marker_color(name):
+            if search_query.lower() in name.lower():
+                return 'red'
+            return 'blue'
 
-    def get_marker_color(name):
-        if search_query.lower() in name.lower():
-            return 'red'
-        return 'blue'
+        # Add markers for all universities
+        for name, coord in universities.items():
+            color = get_marker_color(name)
+            folium.Marker(
+                location=coord,
+                popup=name,
+                icon=folium.Icon(color=color, icon='university')
+            ).add_to(m)
 
-    # Add markers for all universities
-    for name, coord in universities.items():
-        color = get_marker_color(name)
-        folium.Marker(
-            location=coord,
-            popup=name,
-            icon=folium.Icon(color=color, icon='university')
-        ).add_to(m)
+        # Focus on searched university if found
+        if search_query:
+            matching_universities = {name: coord for name, coord in universities.items() 
+                                    if search_query.lower() in name.lower()}
+            if matching_universities:
+                first_match = list(matching_universities.values())[0]
+                m.location = first_match
+                m.zoom_start = 8
 
-    # Focus on searched university if found
-    if search_query:
-        matching_universities = {name: coord for name, coord in universities.items() 
-                                 if search_query.lower() in name.lower()}
-        if matching_universities:
-            first_match = list(matching_universities.values())[0]
-            m.location = first_match
-            m.zoom_start = 8
+        # Display the map
+        st_folium(m, width=725, height=500)
 
-    # Display the map
-    st_folium(m, width=725, height=500)
+        # Additional information
+        st.info("📌 Blue markers: All universities | 🔴 Red markers: Search matches")
+        st.write("Total universities shown:", len(universities))
 
-    # Additional information
-    st.info("📌 Blue markers: All universities | 🔴 Red markers: Search matches")
-    st.write("Total universities shown:", len(universities))
-
-if __name__ == "__main__":
-    display_university_map()
+    if __name__ == "__main__":
+        display_university_map()
