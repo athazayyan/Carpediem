@@ -330,24 +330,7 @@ if test == "Banding Univ":
                     st.info("No intake data available for the selected universities.")
 
             
-                st.subheader("Academic Period")
-                if academic_dates:
-                    valid_dates = [dict(Task=uni, Start=dates['Start Date'], Finish=dates['End Date'])
-                                for uni, dates in academic_dates.items() 
-                                if dates['Start Date'] and dates['End Date']]
-                    if valid_dates:
-                        fig_dates = ff.create_gantt(
-                            df=valid_dates,
-                            index_col='Task',
-                            show_colorbar=True,
-                            group_tasks=True
-                        )
-                        fig_dates.update_layout(title="Academic Period Timeline")
-                        st.plotly_chart(fig_dates)
-                    else:
-                        st.warning("No valid academic dates found for the selected universities.")
-                else:
-                    st.info("No academic period data available for the selected universities.")
+               
 
 
     
