@@ -26,7 +26,7 @@ if test == "chatbot-bantu-persiapan IISMA":
             json.dump(data, file, indent=2)
 
     def cari_jawaban(user_input: str, inputs: list[str]) -> str | None:
-        matches = get_close_matches(user_input, inputs, n=1, cutoff=3)
+        matches = get_close_matches(user_input, inputs, n=1, cutoff=0.8)
         return matches[0] if matches else None
 
     def dapat_jawaban(input: str, basis_ilmu: dict) -> str | None:
